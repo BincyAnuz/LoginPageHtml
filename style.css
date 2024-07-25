@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: blueviolet;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.socialmedia-part{
+   height:400px;
+   width:350px;
+   background-color: black;
+   color:white;
+}
+.logo{
+  display:flex;
+  padding: 20px;
+  margin-left: 20px;
+}
+.inner-container{
+  margin-left:20px;
+  margin-top: 20px;
+}
+#facebook-id{
+  margin-left:30px;
+  margin-top: 30px;
+  height:40px;
+  width:250px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  background-color:rgb(59, 59, 126);
+}
+#twitter-id{
+
+  margin-left:30px;
+  margin-top: 30px;
+  height:40px;
+  width:250px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(180, 180, 243);
+  color:white;
+}
+#google-id{
+  margin-left:30px;
+  margin-top: 30px;
+  height:40px;
+  width:250px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: rgb(151, 51, 15);
+}
+.login-part{
+  height:400px;
+  width:500px;
+  background-color: white;
+}
+.login {
+  
+  margin-top:45px;
+}
+.input-class{
+  width:400px;
+  height:40px;
+  margin-top:30px;
+  border-radius: 8px;
+  border:1px solid grey;
+  padding-left: 20px;
+}
+.inner-login{
+  margin-top:30px;
+}
+.login-button{
+  margin-left:55px;
+  margin-top:30px;
+  width:400px;
+  height:45px;
+  background-color: rgb(101, 101, 193);
+  color:white;
+  border:none;
+  border-radius: 10px;
+}
